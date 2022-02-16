@@ -6,6 +6,25 @@ h1 {
   text-align: center;
 }
 
-#circle1 {
-  border: 5px solid black;
+#circle1, #circle3 {
+  stroke: black;
+  stroke-width: 5px;
+}
+
+.circles {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hasBorder {
+  stroke: black;
+  stroke-width: 5px;
+}
+
+.zeroOpacity {
+  opacity: 0;
+}
+
+.fullOpacity {
+  opacity: 1;
 }
