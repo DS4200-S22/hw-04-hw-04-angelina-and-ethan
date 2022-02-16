@@ -6,9 +6,22 @@ h1 {
   text-align: center;
 }
 
-#circle1, #circle3 {
-  stroke: black;
-  stroke-width: 5px;
+#circle1 {
+  fill: tomato;
+}
+
+#circle2 {
+  fill: cornflowerblue;
+}
+
+#circle3 {
+  fill: yellowgreen;
+}
+
+#text1 {
+  text-anchor: middle;
+  fill: white;
+  font-size: 100px;
 }
 
 .circles {
