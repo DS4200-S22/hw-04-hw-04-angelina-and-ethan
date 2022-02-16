@@ -1,7 +1,7 @@
 # hw-04
 hw-04 - Event Handling 
 
-Link to GitHub Pages: `[insert your clickable hyperlink here]`
+Link to GitHub Pages: [Github pages](https://ds4200-s22.github.io/hw-04-hw-04-angelina-and-ethan/)
 
 ## Purpose
 
