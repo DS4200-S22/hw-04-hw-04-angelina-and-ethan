@@ -6,6 +6,11 @@ h1 {
   text-align: center;
 }
 
+svg {
+  width: 200px;
+  height: 200px;
+}
+
 #circle1 {
   fill: tomato;
 }

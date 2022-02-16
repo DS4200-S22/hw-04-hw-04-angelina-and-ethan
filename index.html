@@ -9,19 +9,14 @@
   <body>
     <h1>Event Handling</h1>
     <div class="circles">
-      <svg height="200" width="200" onclick="circle1Clicked()">
+      <svg onclick="circle1Clicked()">
         <circle id="circle1" class="hasBorder" cx="100" cy="100" r="90" />
         <text id="text1" x="50%" y="50%" dy=".3em">0</text>
       </svg>
-      <svg
-        height="200"
-        width="200"
-        onmouseover="addBorder()"
-        onmouseout="removeBorder()"
-      >
+      <svg onmouseover="addBorder()" onmouseout="removeBorder()">
         <circle id="circle2" cx="100" cy="100" r="90" />
       </svg>
-      <svg height="200" width="200" onclick="changeOpacity()">
+      <svg onclick="changeOpacity()">
         <circle
           class="fullOpacity hasBorder"
           id="circle3"
